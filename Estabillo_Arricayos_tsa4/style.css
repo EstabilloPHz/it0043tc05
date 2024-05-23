@@ -1,0 +1,648 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+body {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/33f87af1-69a0-4629-856b-bcd83431548e/d4o49yb-f6ce0e46-18c7-4b95-8604-dfc301eb506b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMzZjg3YWYxLTY5YTAtNDYyOS04NTZiLWJjZDgzNDMxNTQ4ZVwvZDRvNDl5Yi1mNmNlMGU0Ni0xOGM3LTRiOTUtODYwNC1kZmMzMDFlYjUwNmIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KiKNfV-WxEULYnv1ElRMXT9ThUvVj62LwiRCJp1fcxg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container .card {
+  margin: 5.5%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  width: 323px;
+  height: auto;
+  background-color: rgb(95, 10, 192);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.container .card .image {
+  padding: 5%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(HD-wallpaper-pokemon-pokeball-pokemon.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-left: 70px;
+
+}
+
+.container .card .details {
+  text-align: center;
+  color: white;
+}
+
+.container .card .details .name, .type {
+  margin: 5%;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.container .card .details .type2 {
+  border-radius: 25px;
+  width: 100px;
+  background-color: rgb(242, 1, 255);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container .card .details .desc {
+  font-family: cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #5f921b;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.image2 {
+  padding: 5%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(HD-wallpaper-pokemon-pokeball-pokemon.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-left: 10px;
+
+}
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+.container .card2 {
+  margin: 5.5%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  width: 323px;
+  height: auto;
+  background-color: #1977bf;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.container .card2 .image {
+  padding: 5%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(HD-wallpaper-pokemon-pokeball-pokemon.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-left: 70px;
+
+}
+
+.container .card2 .details {
+
+  text-align: center;
+  color: white;
+}
+
+.container .card2 .details .name, .type {
+  margin: 5%;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.container .card2 .details .type2 {
+  border-radius: 25px;
+  width: 100px;
+  background-color: rgb(7, 7, 224);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container .card2 .details .desc {
+  font-family: cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #5f921b;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+.container .card3 {
+  margin: 5.5%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  width: 323px;
+  height: auto;
+  background-color: rgb(236, 221, 10);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.container .card3 .image {
+  padding: 5%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(HD-wallpaper-pokemon-pokeball-pokemon.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-left: 70px;
+
+}
+
+.container .card3 .details {
+
+  text-align: center;
+  color: white;
+}
+
+.container .card3 .details .name, .type {
+  margin: 5%;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.container .card3 .details .type2 {
+  border-radius: 25px;
+  width: 100px;
+  background-color: rgb(76, 75, 77);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container .card3 .details .desc {
+  font-family: cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #5f921b;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+.container .card4 {
+  margin: 5.5%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  width: 323px;
+  height: auto;
+  background-color: #FFC000;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.container .card4 .image {
+  padding: 2%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(HD-wallpaper-pokemon-pokeball-pokemon.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+
+
+}
+
+.container .card4 .details {
+
+  text-align: center;
+  color: white;
+}
+
+.container .card4 .details .name, .type {
+  margin: 5%;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.container .card4 .details .type2 {
+  border-radius: 25px;
+  width: 100px;
+  background-color:  rgb(242, 1, 255);
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container .card4 .details .desc {
+  font-family: cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #5f921b;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+
+
+/*
+
+
+
+
+
+
+
+*/
+
+
+.container .card5 {
+  margin: 5.5%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  width: 323px;
+  height: auto;
+  background-color: #808080;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.container .card5 .image {
+  padding: 5%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(HD-wallpaper-pokemon-pokeball-pokemon.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+
+}
+
+.container .card5 .details {
+
+  text-align: center;
+  color: white;
+}
+
+.container .card5 .details .name, .type {
+  margin: 5%;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.container .card5 .details .type2 {
+  border-radius: 25px;
+  width: 100px;
+  background-color: #AFA981;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container .card5 .details .type3 {
+  border-radius: 25px;
+  width: 100px;
+  background-color: #915121;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container .card5 .details .desc {
+  font-family: cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #5f921b;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+.container .card6 {
+  margin: 5.5%;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  width: 323px;
+  height: auto;
+  background-color: #800080;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.container .card6 .image {
+  padding: 5%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: url(HD-wallpaper-pokemon-pokeball-pokemon.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+
+}
+
+.container .card6 .details {
+
+  text-align: center;
+  color: white;
+}
+
+.container .card6 .details .name, .type {
+  margin: 5%;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.container .card6 .details .type2 {
+  border-radius: 25px;
+  width: 100px;
+  background-color: #704170;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.container .card6 .details .type3 {
+  border-radius: 25px;
+  width: 100px;
+  background-color: #9141CB;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container .card6 .details .desc {
+  font-family: cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #5f921b;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+/*
+
+
+
+
+
+BUTTONS
+
+
+
+
+
+*/
+.buttons {
+  margin: 5%;
+  }
+  
+  .add {
+    text-align: center;
+  
+    align-items: center;
+    appearance: none;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 1px -2px, rgba(0, 0, 0, .14) 0 2px 2px 0, rgba(0, 0, 0, .12) 0 1px 5px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Roboto, sans-serif;
+    font-size: .675rem;
+    font-weight: 300;
+    height: 46px;
+    letter-spacing: .0892857em;
+    min-width: 64px;
+    outline: none;
+    overflow: visible;
+    padding: 0 16px;
+    position: relative;
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform, opacity;
+  }
+  
+  .add:hover {
+    box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+  }
+  
+  
+  .add:not(:disabled) {
+    background-color: #1aa2ac;
+  }
+  
+  .add:focus {
+    box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+  }
+  
+  .add:active {
+    box-shadow: rgba(0, 0, 0, .2) 0 5px 5px -3px, rgba(0, 0, 0, .14) 0 8px 10px 1px, rgba(0, 0, 0, .12) 0 3px 14px 2px;
+    background: #A46BF5;
+  }
+  
+  .release{
+    text-align: center;
+  
+    align-items: center;
+    appearance: none;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 1px -2px, rgba(0, 0, 0, .14) 0 2px 2px 0, rgba(0, 0, 0, .12) 0 1px 5px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Roboto, sans-serif;
+    font-size: .675rem;
+    font-weight: 300;
+    height: 46px;
+    letter-spacing: .0892857em;
+    min-width: 64px;
+    outline: none;
+    overflow: visible;
+    padding: 0 3px;
+    position: relative;
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform, opacity;
+  }
+  
+  .release:hover {
+    box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+  }
+  
+  .release:not(:disabled) {
+    background-color: #ab1111;
+  }
+  
+  .release:focus {
+    box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+  }
+  
+  .release:active {
+    box-shadow: rgba(0, 0, 0, .2) 0 5px 5px -3px, rgba(0, 0, 0, .14) 0 8px 10px 1px, rgba(0, 0, 0, .12) 0 3px 14px 2px;
+    background: #A46BF5;
+  }
+images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com
