@@ -410,7 +410,7 @@ img{
 
     #Bug {
         display: block;
-        background-color: green;
+        background-color: rgb(10, 65, 10);
         padding-left: 48px;
         padding-right: 48px;
         border-radius: 15px;
