@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+nav, .Container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu-list {
+    display: flex;
+}
+
+nav {
+    height: fit-content;
+    background-color: maroon;
+    color: white;
+}
+
+.Menu-item {
+    list-style: none;
+    padding: 8px 10px;
+}
+
+.Menu-links {
+    color: white;
+    text-decoration: none;
+}
+
+.Logo {
+    font-size: 1.2rem;
+    padding: 8px 0px;
+}
+
+
+
+.main-container{
+    display: flex;
+    padding: 1rem;
+    
+    margin:  20px;
+    flex-wrap: wrap;
+}
+
+.mainpicture{ 
+
+        flex: 3;
+        margin-right: 2rem;
+        min-width: 60%;
+    
+
+    
+   
+    
+}
+
+.largepicture {
+    border-radius: 20px;
+ 
+    height: auto;
+    overflow: hidden;
+    
+ 
+    
+
+    
+}
+
+.largepicture, img{
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+    
+  
+    
+}
+
+.subpicture {
+    flex: 1;
+    width: 30%;
+    object-fit: cover;
+    
+    
+
+}
+
+
+.sidepicture{
+    
+    flex: 1;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.grid{
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 20px;
+    width: 100%; /* Adjust the width to fit the layout */
+    max-width: 1190px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+
+.hero {
+    
+
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+    margin: 10px;
+    background-color: saddlebrown;
+    overflow: hidden;
+    padding: 30px;
+   
+    
+    
+   
+    
+}
+
+
+
+
+
+
