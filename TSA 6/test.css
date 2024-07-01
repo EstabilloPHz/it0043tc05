@@ -23,6 +23,13 @@ nav,
     padding: 5px;
 }
 
+
+
+.nav li {
+    position: relative;
+}
+
+
 .Menu-list {
     display: flex;
     font-family: sans-serif;
@@ -35,14 +42,17 @@ nav {
 }
 
 .Menu-item {
+    
+    white-space: nowrap;
+    
     list-style: none;
     padding: 8px 10px;
+    color: #fff;
+    text-decoration: none;
+
 }
 
-.Menu-links {
-    color: white;
-    text-decoration: none;
-}
+
 
 .Logo {
     font-size: 1.5rem;
@@ -52,6 +62,29 @@ nav {
     
 }
 
+.Menu-links {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.underline {
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto; 
+    transition: width 0.5s ease;
+}
+
+.Menu-item:hover .underline {
+    width: 100%;
+   
+}
+
+.Menu-links:hover {
+    color: rgb(231, 18, 18);
+}
 
 
 .main-container {
