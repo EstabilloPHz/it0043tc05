@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(353deg, rgba(2, 0, 36, 1) 0%, rgba(142, 8, 20, 1) 79%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+nav,
+.Container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+
+.nav li {
+    position: relative;
+}
+
+
+.Menu-list {
+    display: flex;
+    font-family: sans-serif;
+}
+
+nav {
+    height: fit-content;
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+.Menu-item {
+    
+    white-space: nowrap;
+    
+    list-style: none;
+    padding: 8px 10px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+
+.Logo {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 3px 0px;
+    
+}
+
+.Menu-links {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.underline {
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto; 
+    transition: width 0.5s ease;
+}
+
+.Menu-item:hover .underline {
+    width: 100%;
+   
+}
+
+.Menu-links:hover {
+    color: rgb(231, 18, 18);
+}
+
+
+.main-container {
+    display: flex;
+    padding: 1rem;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.mainpicture {
+
+    flex: 3;
+    margin-right: 2rem;
+    min-width: 60%;
+
+
+}
+
+.largepicture {
+    border-radius: 20px;
+    height: auto;
+    overflow: hidden;
+
+
+
+
+
+}
+
+.largepicture,
+img {
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+
+
+
+}
+
+.subpicture {
+    flex: 1;
+    object-fit: cover;
+
+
+}
+
+
+.sidepicture {
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    display: grid;
+    padding: 10px;
+
+
+
+
+}
+
+.hero {
+   
+
+    background-color: #e0e0e0;
+    height: 170px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+
+
+
+
+
+}
+
+.sidebartext {
+    background-image: url('valorant-валорант-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.hero-body {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 32vh;
+    bottom: -2.8rem;
+    border-radius: 20px;
+    opacity: 0;
+    color: white;
+    background: rgb(10, 15, 18);
+    background: linear-gradient(180deg, rgba(10, 15, 18, 1) 0%, rgba(16, 22, 27, 1) 68%, rgba(27, 37, 45, 1) 92%);
+    position: absolute;
+    transition: 0.5s ease;
+
+}
+
+.hero-name {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 2rem;
+}
+
+.hero-desc {
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.hero-body2 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 32vh;
+    top: 46rem;
+    border-radius: 20px;
+    opacity: 0;
+    color: white;
+    position: absolute;
+    background: rgb(10, 15, 18);
+    background: linear-gradient(180deg, rgba(10, 15, 18, 1) 0%, rgba(16, 22, 27, 1) 68%, rgba(27, 37, 45, 1) 92%);
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease;
+}
+
+.hero-body:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+
+
+
+}
+
+.hero:hover {
+  
+        margin-top: 30px;
+   
+}
+
+.hero-body2:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+
+}
+
+#Sagecolor {
+    background: rgb(139,134,143);
+    background: linear-gradient(0deg, rgba(139,134,143,1) 0%, rgba(22,177,153,1) 48%, rgba(56,100,107,1) 91%, rgba(88,80,77,1) 100%);
+}
+
+#Yorucolor {
+    background: rgb(96,96,96);
+background: linear-gradient(0deg, rgba(96,96,96,1) 2%, rgba(44,69,168,1) 24%, rgba(74,96,182,1) 83%, rgba(64,72,139,1) 93%, rgba(57,56,109,1) 100%);
+}
+
+#Astracolor {
+    background: rgb(203,51,178);
+background: linear-gradient(0deg, rgba(203,51,178,1) 2%, rgba(148,64,193,1) 24%, rgba(112,19,228,1) 83%, rgba(64,72,139,1) 93%, rgba(57,56,109,1) 100%);
+}
+
+#Clovecolor{
+    background: rgb(102,0,102);
+background: linear-gradient(0deg, rgba(102,0,102,1) 2%, rgba(199,87,218,1) 15%, rgba(216,145,239,1) 27%, rgba(227,91,249,1) 71%, rgba(177,129,255,1) 83%, rgba(109,51,180,1) 100%);
+}
+
+#Reynacolor{
+    background: rgb(152,53,134);
+background: linear-gradient(0deg, rgba(152,53,134,1) 0%, rgba(254,102,240,1) 32%, rgba(197,91,252,1) 75%, rgba(152,53,134,1) 97%);
+}
+
+#Killjoycolor{
+    background: rgb(250,220,49);
+background: linear-gradient(184deg, rgba(250,220,49,1) 0%, rgba(104,178,130,1) 0%, rgba(225,136,252,1) 16%, rgba(74,62,120,1) 84%, rgba(52,49,43,1) 100%);
+}
+
+#Phoenixcolor{
+    background: rgb(0,41,85);
+background: linear-gradient(180deg, rgba(0,41,85,1) 0%, rgba(254,153,72,1) 0%, rgba(253,92,37,1) 27%, rgba(253,92,37,1) 68%, rgba(254,153,72,1) 100%);
+    
+}
+
