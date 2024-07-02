@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ded3b9;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+nav,
+.Container {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+
+
+.nav li {
+    position: relative;
+}
+
+
+.Menu-list {
+    display: flex;
+    font-family: sans-serif;
+}
+
+nav {
+    height: fit-content;
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+.Menu-item {
+    white-space: nowrap;
+    list-style: none;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+  
+
+}
+
+
+
+.Logo {
+    margin: 9px;
+    background-image: url(whitelogo.png);
+    width: 10%; 
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.Menu-links {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.underline {
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto; 
+    transition: width 0.5s ease;
+}
+
+.Menu-item:hover .underline {
+    width: 100%;
+   
+}
+
+.Menu-links:hover {
+    color: rgb(231, 18, 18);
+}
+
+
+.main-container {
+    display: flex;
+    padding: 1rem;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.mainpicture {
+
+    flex: 3;
+    margin-right: 2rem;
+    min-width: 60%;
+
+
+}
+
+
+.largepicture,
+img {
+    border-radius: 20px;
+   
+    width: 100%;
+    object-fit: cover;
+
+
+
+}
+
+.subpicture {
+    flex: 1;
+    object-fit: cover;
+
+
+}
+
+
+.sidepicture {
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    display: grid;
+    padding: 10px;
+
+
+
+
+}
+
+.hero {
+   
+
+    
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.sidebartext {
+    line-height: 1.5rem;
+    background-image: url('valorant-валорант-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+    
+    border-radius: 15px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sidebartextheader{
+    margin-bottom: 10px;
+
+}
+
+.sidenewscontainer {
+    background-image: url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/ece1d7a8a15c7f55cb3a09a8aca0fd5d5d93c9ac-5120x1140.png?auto=format&fit=fill&q=80&w=1899);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.sidenewsheader {
+
+    font-family: "Anton SC", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    
+}
+
+.sidenewsimage, .sidenewsheader2, .sidenewstext {
+    margin-top: 20px;
+
+}
+
+.sidenewsimage2{
+    margin-top: 25px;
+
+}
+
+
+
+
+
+.hero-body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  
+    margin-bottom: 30px;
+    border-radius: 20px;
+    opacity: 0;
+    color: white;
+    position: absolute;
+    transition: 0.5s ease;
+    width: 15%; 
+    aspect-ratio: 1/1; 
+    background: rgb(10, 15, 18);
+    background: linear-gradient(180deg, rgba(10, 15, 18, 1) 0%, rgba(16, 22, 27, 1) 68%, rgba(27, 37, 45, 1) 92%);
+
+
+}
+
+.hero-name {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero-desc {
+    text-align: center;
+}
+
+
+.hero-body2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    opacity: 0;
+    color: white;
+    position: absolute;
+    transition: 0.5s ease;
+    width: 15%; 
+    aspect-ratio: 1/1; 
+    background: rgb(10, 15, 18);
+    background: linear-gradient(180deg, rgba(10, 15, 18, 1) 0%, rgba(16, 22, 27, 1) 68%, rgba(27, 37, 45, 1) 92%);
+
+    
+    transition: 0.5s ease;
+}
+
+.hero-body:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+
+
+
+
+}
+
+.hero:hover {
+  
+        margin-top: 50px;
+     
+   
+}
+
+.hero-body2:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+
+}
+
+
+
+
+
+
+footer {
+    background-color: black;
+    padding: 10px;
+}
+
+.footersociallinks {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.icons {
+    gap: 50px;
+   width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+   
+}
+
+.footertext {
+    margin-top: 10px;
+    color: silver;
+    text-align: center;
+    margin-top: -2px;
+    font-size: 0.9rem;
+}
+
+.footerimage{
+    width: 5%;
+    margin: auto;
+
+}
+
+.underfootertext {
+    
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 40px;
+    justify-content: center ;
+}
+
+.Undertext{
+    padding-left: 30px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.8rem;
+    color:  #DED3B9;
+}
+
+.underpicture {
+    flex-direction: column;
+    background-color: #0E1923;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 10px;
+    display: flex;
+    padding-bottom: 40px;
+    padding-top:  20px;
+    border-radius: 20px;
+}
+
+.videosource, iframe {
+    width: 100%;
+    height: 520px;
+    margin: auto;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Logo {
+        width: 15%; 
+    }
+
+    .hero-body {
+        width: 25%;
+    }
+
+    .hero-body2 {
+        width: 25%;
+        opacity: 0;
+    }
+
+    
+}
+
+@media (max-width: 760px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Logo {
+        width: 20%; 
+    }
+
+    .hero-body {
+        width: 45%;
+    }
+
+    .hero-body2 {
+        width: 45%;
+        opacity:0;
+    }
+
+    .largepicture {
+        margin-right: 0;
+        min-width: 100%;
+    }
+
+    .subpicture{
+        min-width:  100%;
+        margin-top: 1rem;
+    }
+
+    .videosource, iframe {
+        width: 100%;
+        height: 420px;
+    }
+
+
+    
+}
+
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Logo {
+        width: 25%; 
+    }
+
+    .hero-body {
+        width: 85%;
+    }
+
+    .hero-body2 {
+        width: 85%;
+      
+    }
+
+    .Menu-links {
+        font-size:  0.7rem;
+        
+    }
+
+    .Menu-item {
+        padding: 2px;
+    }
+
+}
+
+

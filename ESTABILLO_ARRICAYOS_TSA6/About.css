@@ -1,0 +1,401 @@
+
+
+
+.maincontainer {
+    display: flex;
+    padding: 1rem;
+
+
+}
+
+
+
+
+
+.Title {
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-left: 50px;
+    font-size: 6.3rem;
+}
+
+.Subtitles {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paragraphs {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.rightcontentimage {
+    padding-top: 50px;
+    margin: 100px auto;
+    padding-right: 120px;
+    width: 100%;
+
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 20px;
+
+
+}
+
+
+.backgroundimage {
+    background-image: url('c8157d71a4776dd821d05ed6b82d5d875ca03386-5120x1644.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.button-selection {
+
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+
+    height: 12%;
+    border: solid red 10px;
+
+}
+
+.mainbackgroundimage {
+    display: flex;
+    background-image: url('https://cdn.discordapp.com/attachments/1083408550799343646/1257632726119350273/My_Video.gif?ex=66851d3f&is=6683cbbf&hm=7bd425c86c60fd8114dae4e3a27013fe89f41a8eb0684c53c9ad731ef3802466&');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.mainsubheadings {
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 190px;
+    text-align: center;
+
+}
+
+.mainimage {
+
+    background-image: url('Valorant-Logo-PNG-Cutout.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 380px;
+    margin: 20px auto;
+    justify-content: center;
+
+
+}
+
+.buttoncontainer {
+    margin: 20px auto;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 6vh;
+    cursor: pointer;
+    background-color: red;
+    border: solid white 1px;
+    transition: 0.5s ease;
+
+    color: white;
+}
+
+.buttoncontainer:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 1024px) {
+
+   .Title {
+        font-size: 3rem;
+        padding-top: 10px;
+
+    }
+
+   .Subtitles {
+        font-size: 1rem;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-left: 50px;
+        align-items: center
+}
+
+.paragraphs {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.rightcontentimage {
+    padding-top: 50px;
+    margin: 100px auto;
+    padding-right: 120px;
+    width: 100%;
+
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 20px;
+
+
+}
+
+
+.backgroundimage {
+    background-image: url('c8157d71a4776dd821d05ed6b82d5d875ca03386-5120x1644.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.button-selection {
+
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+
+    height: 12%;
+    border: solid red 10px;
+
+}
+
+.mainbackgroundimage {
+    display: flex;
+    background-image: url('https://cdn.discordapp.com/attachments/1083408550799343646/1257632726119350273/My_Video.gif?ex=66851d3f&is=6683cbbf&hm=7bd425c86c60fd8114dae4e3a27013fe89f41a8eb0684c53c9ad731ef3802466&');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.mainsubheadings {
+    color: white;
+    font-size: 1.4rem;
+    padding-top: 190px;
+    text-align: center;
+
+}
+
+.mainimage {
+
+    background-image: url('Valorant-Logo-PNG-Cutout.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 380px;
+    margin: 20px auto;
+    justify-content: center;
+
+
+}
+
+.buttoncontainer {
+    margin: 20px auto;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 6vh;
+    cursor: pointer;
+    background-color: red;
+    border: solid white 1px;
+    transition: 0.5s ease;
+
+    color: white;
+}
+
+.buttoncontainer:hover {
+    background-color: white;
+    color: black;
+}
+
+}
+
+@media (max-width: 1024px) {
+
+    .Title {
+        font-size: 3rem;
+        padding-top: 10px;
+
+    }
+
+    .Subtitles {
+        font-size: 1rem;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-left: 50px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .paragraphs {
+        font-size: 0.7rem;
+    }
+
+    .button-selection {
+        margin-top: 20px;
+        margin-left: 50px;
+        padding-bottom: 0px;
+        width: 52%;
+    }
+
+    .rightcontentimage {
+        width: 70%;
+        padding-top: 0px;
+        margin-left: 200px;
+
+    }
+
+    .mainsubheadings {
+        font-size: 1rem;
+        padding-top: 110px;
+        text-align: center;
+
+    }
+
+    .mainimage {
+        height: 70px;
+        width: 280px;
+
+    }
+
+    .buttoncontainer {
+        margin: 20px auto;
+        margin-left: 50px;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 6vh;
+    }
+
+
+    .paragraphs,
+    .Subtitles,
+    .Title,
+    .buttoncontainer {
+        padding-left: 1px;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 760px) {
+
+    .Title {
+        background-color: red;
+
+        font-size: 2rem;
+        padding-top: 10px;
+
+    }
+
+    .Subtitles {
+        font-size: 0.8rem;
+        padding-top: 4px;
+   
+
+    }
+
+    .paragraphs {
+        
+        font-size: 0.4rem;
+        padding-top: 3px;
+    }
+
+    .button-selection {
+        margin-top: 8px;
+        width: 42%;
+        font-size: 0.5rem;
+    }
+
+    .rightcontentimage {
+
+        width: 100%;
+        margin: 60px;
+        margin-left: 10px;
+
+        padding-left: 60px;
+
+    }
+
+    .mainsubheadings {
+        font-size: 0.7rem;
+        padding-top: 50px;
+        text-align: center;
+
+    }
+
+    .mainimage {
+        height: 70px;
+        width: 190px;
+    
+
+    }
+
+    .buttoncontainer {
+        margin: 1px auto;
+        margin-left: 30px;
+        width: 60%;
+        height: 7vh;
+    }
+
+
+    .paragraphs,
+    .Subtitles,
+    .Title,
+    .buttoncontainer {
+        padding-left: 1px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .rightcontentimage {
+        width: 110%;
+        margin: 60px;
+        margin-left: 0px;
+        padding-left: 10px;
+
+        
+    }
+    .leftcontainer {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: left;
+      }
+}
