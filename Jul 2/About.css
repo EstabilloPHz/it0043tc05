@@ -5,13 +5,6 @@
 
 }
 
-body {
-    background-color: blueviolet
-}
-
-
-
-
 .Container {
     width: 90vw;
     margin: 0 auto;
@@ -162,7 +155,7 @@ nav {
 
   .mainbackgroundimage {
     display: flex;
-    background-image: url('BGABOUT.gif'); 
+    background-image: url('https://cdn.discordapp.com/attachments/1083408550799343646/1257632726119350273/My_Video.gif?ex=66851d3f&is=6683cbbf&hm=7bd425c86c60fd8114dae4e3a27013fe89f41a8eb0684c53c9ad731ef3802466&'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
