@@ -43,7 +43,7 @@ nav,
 
 nav {
     height: fit-content;
-    background-color: rgb(17,17,17, 0.5);
+    background-color: rgb(17,17,17, 0.3);
     color: white;
     position: absolute;
     width: 100%;
@@ -62,13 +62,11 @@ nav {
 .Logo {
     background-image: url(MYLOGOICOn.png);
     margin: 3px;
-    width: 10%; 
-    height: 90%;
+    width: 20%; 
+    height: 100%;
     background-size: contain; 
     background-repeat: no-repeat;
 }
-
-
 
 .Menu-links {
     color: white;
@@ -98,6 +96,8 @@ nav {
 .maincontainer {
     display: flex;
 
+
+
 }
 
 
@@ -108,39 +108,39 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
-    
+    height: 100%;
     background-attachment: fixed;
+    
+    
+
+    width: 100%;
+}
+
+.leftcontainermain{
+    display: flex;
+    justify-content: center;
+  
+ 
+    border-radius: 20px;
+    transition: 1s ease;
+    position: absolute;
+}
+
+.rightcontainermain{
+    display: flex;
+    align-items: center;
+    margin-left: 50px; /* add this line */
+    position: absolute;
+}
+
+.firstmainbackgroundimage::before{
+    
+    content: "";
+    top: 0;
     width: 100%;
     height: 100vh;
-    
-
-    width: 100%;
+    background-color: rgba(12,92,125, 0.5);
 }
-
-.Leftphotocontainer{
-    display: flex;
-   justify-content: center;
-
-}
-
-#Firstphotocontainer{
-    border-radius: 200px 200px 200px 200px;
-    width: 70%;
-    justify-content: center;
-    margin-top: 60px;
-    margin-left: 50px;
-
-}
-
-.Maintitlecontainer{
-    margin-bottom: 20px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    background-color: blue;
-    
-}
-
 
 .mainsubheadings {
     
@@ -152,22 +152,14 @@ nav {
     color: white;
 }
 
-#color1 {
-    color: rgb(241, 0, 0);
+.maintitleheading {
+    position: absolute;
+    font-size: 3.4rem;
+    font-weight: 4rem;
+    margin-top: 310px;
+    color: white;
+
 }
-
-    .maintitleheading {
-        
-        background-color: rgb(78, 12, 136);
-        padding: 20px;
-        border-radius: 20px;
-
-        font-size: 3.2rem;
-        font-weight: 4rem;
-        margin-top: 200px;
-        color: rgb(221, 221, 221)
-
-    }
 
 .Title {
     margin-left: 3px;
@@ -621,7 +613,6 @@ img {
     margin-left: 30px;
     color: white;
     font-size: 1.7rem;
-    
   }
 
   .servicedesc {
@@ -725,17 +716,27 @@ form .btn {
     color: white;
 }
 
-.copyrights{
+.copyright {
     width: 100%;
     text-align: center;
     padding: 25px 0;
+    background: #100573;
     color: white;
-    background: #262626;
     font-weight: 300;
 
 }
 
 @media (max-width: 1024px) {
+
+    .mainsubheadings{
+        margin-top: 200PX;
+        font-size: 0.9rem;
+    }
+
+    .maintitleheading {
+        margin-top: 220PX;
+        font-size: 1.6rem;
+    }
 
     .rightcontainer{
         margin-left: 0px;
@@ -855,6 +856,7 @@ form .btn {
 
       .servicedesc {
         font-size: 0.8rem;
+        margin-right: 10px;
       }
 
       .Contactcontainer{
@@ -890,43 +892,19 @@ form .btn {
           cursor: pointer;
       }
 
-      
-
-
-
-      .Leftphotocontainer{
-        display: flex;
-       justify-content: center;
-    
-    }
-    
-    #Firstphotocontainer{
-        border-radius: 200px 200px 200px 200px;
-        width: 70%;
-        justify-content: center;
-        margin-top: 60px;
-        margin-left: 50px;
-    
-    }
-    
-    .maintitleheading {
-    
-        background-color: rgb(78, 12, 136);
-        padding: 20px;
-        border-radius: 20px;
-        margin-right: 10px;
-    
-        font-size: 2.2rem;
-        font-weight: 4rem;
-        margin-top: 200px;
-        color: rgb(221, 221, 221)
-    
-    }
-
- 
 }
 
 @media (max-width: 900px) {
+
+    .mainsubheadings{
+        margin-top: 170PX;
+        font-size: 0.7rem;
+    }
+
+    .maintitleheading {
+        margin-top: 190PX;
+        font-size: 1.4rem;
+    }
 
     .headinginformation {
       
@@ -966,17 +944,42 @@ form .btn {
       }
     
       .servicedesc {
+        margin-right: 10px;
         
         font-size: 1rem;
       }
 
+      nav,
+      .Container {
+      
+          padding: 1px;
+      }
+
+
+
 }
 
-@media (max-width: 468px) {
+@media(max-width: 600px) {
+
+    nav,
+.Container {
+
+    padding: 1px;
+}
+
+    .mainsubheadings{
+        margin-top: 100PX;
+        font-size: 0.7rem;
+    }
+
+    .maintitleheading {
+        margin-top: 120PX;
+        font-size: 1.4rem;
+    }
 
     .Logo {
         width: 10%; 
-        height: 50%;
+        height: 80%;
     }
 
     .Menu-links {
@@ -1015,7 +1018,7 @@ form .btn {
     .Title {
         display: flex;
         justify-content: center;
-        font-size: 1rem;
+        font-size: 2rem;
         
     }
     
@@ -1089,7 +1092,8 @@ form .btn {
       }
 
       .servicedesc {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        margin-right: 10px;
       }
 
       .Contactcontainer{
@@ -1143,36 +1147,11 @@ form .btn {
         margin-left: 50px;
     
     }
-    
-    .maintitleheading {
-    
-        background-color: rgb(78, 12, 136);
-        padding: 20px;
-        border-radius: 20px;
-        margin-right: 10px;
-    
-        font-size: 2.2rem;
-        font-weight: 4rem;
-        margin-top: 200px;
-        color: rgb(221, 221, 221)
-    
+
+    .gridservice {
+        grid-template-columns: repeat(1, 1fr);
     }
     
+
 }
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
 
