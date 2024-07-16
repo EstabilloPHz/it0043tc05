@@ -725,6 +725,16 @@ form .btn {
     color: white;
 }
 
+.copyrights{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    color: white;
+    background: #262626;
+    font-weight: 300;
+
+}
+
 @media (max-width: 1024px) {
 
     .rightcontainer{
